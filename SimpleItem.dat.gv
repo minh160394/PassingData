@@ -1,0 +1,20 @@
+digraph itemGraph {
+"Item I5" -> "Installer: Install CPU"[color=green];
+"Item I5" -> "Romver: Remove CPU"[color=red];
+"Item I7" -> "Installer: Install CPU"[color=green];
+"Item I7" -> "Romver: Remove CPU"[color=red];
+"Item A12" -> "Installer: Install CPU"[color=green];
+"Item A12" -> "Romver: Remove CPU"[color=red];
+"Item DDR 266" -> "Installer: Install Memory"[color=green];
+"Item DDR 266" -> "Romver: Remove Memory"[color=red];
+"Item DDR 400" -> "Installer: Install Memory"[color=green];
+"Item DDR 400" -> "Romver: Remove Memory"[color=red];
+"Item Geforce 750M" -> "Installer: Install GPU"[color=green];
+"Item Geforce 750M" -> "Romver: Remove GPU"[color=red];
+"Item Nano" -> "Installer: Install GPU"[color=green];
+"Item Nano" -> "Romver: Remove GPU"[color=red];
+"Item Power Supply 200 Watt" -> "Installer: Install Power Supply"[color=green];
+"Item Power Supply 200 Watt" -> "Romver: Remove Power Supply"[color=red];
+"Item Power Supply 300 Watt" -> "Installer: Install Power Supply"[color=green];
+"Item Power Supply 300 Watt" -> "Romver: Remove Power Supply"[color=red];
+}

@@ -1,0 +1,25 @@
+digraph taskGraph {
+"Install Power Supply" -> "Install Power Supply"[color=green];
+"Install Motherboard" -> "Install Motherboard"[color=green];
+"Install Power Supply" -> "Install Motherboard"[color=red];
+"Install Power Supply" -> "Install Power Supply"[color=green];
+"Install CPU" -> "Install CPU"[color=green];
+"Install Motherboard" -> "Install CPU"[color=red];
+"Install Motherboard" -> "Install Motherboard"[color=green];
+"Install Memory" -> "Install Memory"[color=green];
+"Install CPU" -> "Install Memory"[color=red];
+"Install CPU" -> "Install CPU"[color=green];
+"Install SSD" -> "Install SSD"[color=green];
+"Install Memory" -> "Install SSD"[color=red];
+"Install Memory" -> "Install Memory"[color=green];
+"Install GPU" -> "Install GPU"[color=green];
+"Install SSD" -> "Install GPU"[color=red];
+"Install SSD" -> "Install SSD"[color=green];
+"Test" -> "Test"[color=green];
+"Install GPU" -> "Test"[color=red];
+"Install GPU" -> "Install GPU"[color=green];
+"Approve" -> "Approve"[color=green];
+"Test" -> "Approve"[color=red];
+"Approve";
+"Repair";
+}

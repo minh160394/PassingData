@@ -1,0 +1,17 @@
+digraph itemGraph {
+"Biance:Dell 123" -> "DDR 266"[color=blue];
+"Biance:Dell 123" -> "I7"[color=blue];
+"Biance:Dell 123" -> "DDR 266"[color=blue];
+"Biance:Dell 123" -> "Nano"[color=blue];
+"Biance:Dell 123" -> "Power Supply 300 Watt"[color=blue];
+"SaltN Pepa:HP 345" -> "A12"[color=blue];
+"SaltN Pepa:HP 345" -> "DDR 400"[color=blue];
+"SaltN Pepa:HP 345" -> "Geforce 750M"[color=blue];
+"SaltN Pepa:HP 345" -> "DDR 400"[color=blue];
+"SaltN Pepa:HP 345" -> "Power Supply 300 Watt"[color=blue];
+"Brianna:Acer 567" -> "I5"[color=blue];
+"Brianna:Acer 567" -> "Power Supply 200 Watt"[color=blue];
+"Brianna:Acer 567" -> "DDR 266"[color=blue];
+"Brianna:Acer 567" -> "Nano"[color=blue];
+"Brianna:Acer 567" -> "DDR 266"[color=blue];
+}
